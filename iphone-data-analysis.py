@@ -7,7 +7,8 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
 from pyspark.sql.types import *
 
-# Initialize Glue and Spark context
+# Initialize Glue and Spark Context
+
 sc = SparkContext()
 glueContext = GlueContext(sc)
 spark = glueContext.spark_session
